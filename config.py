@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-token = '826065858:AAEHlKkA_q7CG8e4Qsz0-b7GNS4n8ypRCSg'
+token = 
 socks_proxy='socks5h://178.197.249.213:1080'
 WEBHOOK_HOST = '172.30.111.61'
 WEBHOOK_PORT = '443'
