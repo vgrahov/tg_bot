@@ -6,7 +6,7 @@ import cherrypy
 from telebot import apihelper
 
 
-apihelper.proxy = {'https': config.socks_proxy}
+# apihelper.proxy = {'https': config.socks_proxy}
 bot = telebot.TeleBot(config.token)
 
 
