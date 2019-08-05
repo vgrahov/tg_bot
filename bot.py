@@ -3,10 +3,10 @@
 import config
 import telebot
 import cherrypy
-from telebot import apihelper
+#from telebot import apihelper
 
 
-apihelper.proxy = {'https': config.socks_proxy}
+#apihelper.proxy = {'https': config.socks_proxy}
 bot = telebot.TeleBot(config.token)
 
 
@@ -35,9 +35,9 @@ bot.set_webhook(url=config.WEBHOOK_URL_BASE+config.WEBHOOK_URL_PATH)
 cherrypy.config.update({
     'server.socket_host': config.WEBHOOK_LISTEN,
     'server.socket_port': config.WEBHOOK_PORT,
-    'server.ssl_module': 'builtin',
-    'server.ssl_certificate': config.WEBHOOK_SSL_CERT,
-    'server.ssl_private_key': config.WEBHOOK_SSL_PRIV
+    'server.ssl_module': 'builtin'
+    #'server.ssl_certificate': config.WEBHOOK_SSL_CERT,
+    #'server.ssl_private_key': config.WEBHOOK_SSL_PRIV
 })
 
  # Собственно, запуск!
