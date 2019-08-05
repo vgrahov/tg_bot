@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 token = 
 socks_proxy='socks5h://178.197.249.213:1080'
-WEBHOOK_HOST = 'grahtgbot.herokuapp.com'
+WEBHOOK_HOST = 'https://grahtgbot.herokuapp.com'
 WEBHOOK_PORT = '443'
 WEBHOOK_LISTEN = '0.0.0.0'
 WEBHOOK_SSL_CERT = '/home/grah/ssl/'
