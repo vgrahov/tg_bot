@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-token = '826065858:AAEHlKkA_q7CG8e4Qsz0-b7GNS4n8ypRCSg'
+token = 'gluzdo_kukuruzdo'
 #socks_proxy='socks5h://178.197.249.213:1080'
 WEBHOOK_HOST = 'https://grahtgbot.herokuapp.com/'
 WEBHOOK_PORT = '443'
