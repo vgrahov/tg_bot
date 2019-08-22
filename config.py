@@ -1,2 +1,2 @@
-TOKEN = '826065858:AAEHlKkA_q7CG8e4Qsz0-b7GNS4n8ypRCSg'
-APP_NAME = 'grahtgbot'
+TOKEN = 'tokentoken'
+APP_NAME = 'botbot'
